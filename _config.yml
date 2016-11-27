@@ -1,0 +1,7 @@
+markdown: rdiscount
+permalink: /blog/:title
+rdiscount:
+  extensions: [smart]
+media_tags:
+conf_year: 2017
+highlighter: rouge

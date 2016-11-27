@@ -1,0 +1,31 @@
+---
+layout: containerday
+title: Container Day
+ttl: Container Day
+conf_data: Verona, 27-28 Aprile 2017
+base_url: http://2017.containerday.it
+workshop: false
+cfp: true
+cfp_url: https://docs.google.com/a/grusp.org/forms/d/1yEJaLeWuGlnkl6p68tafxMgP0WwgXZ-nsZUA2Uiixec/edit
+cfp_end: 5 marzo 2017
+speakers: false
+cfs: true
+where: verona-hotel-san-marco-it
+tickets: true
+tickets_url: https://eventbrite.com/tickets-external?eid=29501924049&ref=etckt
+location_name: Hotel San Marco
+location_address: Via Baldassarre Longhena, 42
+location_city: Verona, Italia
+---
+
+{% include section-contents.html %}
+
+{% if page.cfp %} {% include section-cfp.html %} {% endif %}
+{% if page.tickets %} {% include section-tickets.html %} {% endif %}
+{% if page.speakers %} {% include section-speakers.html %} {% endif %}
+{% if page.workshop %} {% include section-workshop.html %} {% endif %}
+
+{% capture place %}{{'places/'}}{{page.where}}{{'.html'}}{% endcapture %}
+
+{% include {{place}} %}
+{% include section-sponsors.html %}
