@@ -682,6 +682,14 @@ a:hover.slides{
 
 }
 
+.sponsors .main {
+	color: #404040;
+}
+
+.sponsors .platinum {
+	color: #E5E4E2;
+}
+
 .sponsors .gold {
 	color: #DBB541;
 }
