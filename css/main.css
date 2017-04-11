@@ -714,7 +714,7 @@ a:hover.slides{
 	font-weight: 800;
 }
 
-.main_sponsor, .gold_sponsors, .silver_sponsors, .bronze_sponsors{
+.main_sponsor, .platinum_sponsors, .gold_sponsors, .silver_sponsors, .bronze_sponsors{
 	clear: both;
 	text-align: center;
 	margin-bottom: 60px;
@@ -723,8 +723,11 @@ a:hover.slides{
 .main_sponsor .banner {
 	width: 25%;
 }
+.platinum_sponsors .banner {
+	width: 22.50%;
+}
 .gold_sponsors .banner {
-	width: 21.68%;
+	width: 20%;
 }
 .silver_sponsors .banner{
 	width: 16.8%;
