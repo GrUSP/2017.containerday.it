@@ -211,6 +211,16 @@ a.more:hover{
 	background-color: rgba(0,0,0, .3);
 }
 
+div.link {
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div.link a {
+	color: white;
+}
+
 
 
 /*  GLOBAL OBJECTS ============================================================================= */
